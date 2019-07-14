@@ -1,4 +1,15 @@
 #header{
-    background-image:url('https://icdn3.digitaltrends.com/image/video-editing.jpg');
-height:100%;
+    background-image:url('/images/background-image.jpg');
+height:500px;
+background-size:cover;
+}
+#header{
+    text-align:center;
+    background-position: bottom;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-style: inherit;
+    font-size: xx-large;
+    text-decoration-style: solid;
+    padding-top:20%;
 }
