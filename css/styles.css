@@ -80,7 +80,7 @@ nav>ul>li>a:hover {
     padding-bottom: 2%;
 }
 #projects>h1{
-    background-color: aliceblue;
+    
     text-align:center;
     font-family: 'Lato', sans-serif;
     font-size: x-large;
@@ -90,6 +90,7 @@ nav>ul>li>a:hover {
     height:200px;
     width:250px;
     box-shadow:5px 6px 6px rgba(255, 255, 255, 0.733);
+
 
 }
 .main-project{
@@ -109,4 +110,7 @@ nav>ul>li>a:hover {
 }
 #footer.p{
     font-size:large;
+}
+#projects{
+    background-color: antiquewhite;
 }
