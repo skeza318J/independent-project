@@ -9,9 +9,21 @@ background-size:cover;
     color:white;
     font-family: 'Lato', sans-serif;
     font-style: inherit;
-    font-size: xx-large;
     text-decoration-style: solid;
-    padding-top:40%;
+    padding-top:20%;
+}
+.button-scroll-ymy_btn{
+    padding:30px 40px;
+    font-size: x-large;
+    border-radius:70px;
+    background-color: aqua;
+    
+}
+#header h1{
+    font-size: xx-large;
+}
+#header p{
+    font-size: x-large;
 }
 #overlay {
     position: fixed;
