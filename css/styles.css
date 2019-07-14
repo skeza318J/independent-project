@@ -64,4 +64,10 @@ nav>ul>li>a:hover {
     background: darkgray;
     color: rgba(0, 35, 122, 0.7);
 }
-   
+   #aboutme{
+       background-color: aliceblue;
+       font-family:'Lato', sans-serif;
+       text-align: center;
+       font-size:20px;
+   }
+  
