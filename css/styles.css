@@ -13,17 +13,19 @@ background-size:cover;
     padding-top:20%;
 }
 .button-scroll-ymy_btn{
-    padding:30px 40px;
-    font-size: x-large;
+    padding:20px 20px;
+    font-size: large;
     border-radius:70px;
     background-color: aqua;
-    
+    text-decoration: none;
+   
 }
 #header h1{
     font-size: xx-large;
 }
 #header p{
     font-size: x-large;
+    padding-bottom: 5%;
 }
 #overlay {
     position: fixed;
