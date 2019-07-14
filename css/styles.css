@@ -1,15 +1,53 @@
 #header{
     background-image:url('/images/background-image.jpg');
-height:500px;
+height:400px;
 background-size:cover;
 }
 #header{
     text-align:center;
-    background-position: bottom;
+    background-position-x: center;
     color:white;
     font-family: 'Lato', sans-serif;
     font-style: inherit;
     font-size: xx-large;
     text-decoration-style: solid;
-    padding-top:20%;
+    padding-top:40%;
 }
+#overlay {
+    position: fixed;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 0);
+    z-index: 2;
+}
+nav {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 0;
+    margin-right: 0%;
+ }
+ nav>ul {
+    text-align: right;
+}
+nav>ul>li {
+    display: inline-block;
+}
+nav ul li a {
+    padding: 18px;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: rgba(255, 255, 255, 0.733);
+}
+nav>ul>li>a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0), insert 0 0 1px rgba(255, 255, 255, 0.6);
+    background: darkgray;
+    color: rgba(0, 35, 122, 0.7);
+}
+   
